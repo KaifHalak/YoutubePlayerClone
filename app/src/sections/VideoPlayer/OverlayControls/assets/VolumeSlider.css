@@ -1,0 +1,100 @@
+/* https://kentondejong.medium.com/we-can-finally-transition-display-none-cbb03831351f
+ */
+
+/* Volume Slider transition Guide */
+
+:root {
+  /* #404142 */
+  --slider-width: 48px;
+  --slider-height: 3px;
+  --slider-background: #404142;
+  --slider-hover-opacity: 1;
+  --slider-thumb-size: 12px;
+  --slider-thumb-color: #fff;
+  --tooltip-background: #000;
+  --tooltip-color: #fff;
+  --tooltip-font-size: 12px;
+  --tooltip-padding: 2px 5px;
+  --tooltip-border-radius: 3px;
+}
+
+/* https://kentondejong.medium.com/we-can-finally-transition-display-none-cbb03831351f
+ */
+
+/* Volume Slider transition Guide */
+
+.slider-container {
+  opacity: 1;
+  position: relative;
+  width: var(--slider-width);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  transition: all 0.50s ease;
+  transition-behavior: allow-discrete;
+}
+
+.slider-container.closed {
+  display: none;
+  opacity: 0;
+  width: 0;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: var(--slider-height);
+  background: var(--slider-background);
+  outline: none;
+  opacity: 1;
+  transition: opacity 0.2s;
+  transition: background 0.5s ease;
+
+  border-radius: 5px;
+}
+
+.slider:hover{
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--slider-thumb-size);
+  height: var(--slider-thumb-size);
+  background: var(--slider-thumb-color);
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.slider::-moz-range-thumb {
+  width: var(--slider-thumb-size);
+  height: var(--slider-thumb-size);
+  background: var(--slider-thumb-color);
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.tooltip {
+  position: absolute;
+  top: -25px;
+  transform: translateX(-50%);
+  background-color: var(--tooltip-background);
+  color: var(--tooltip-color);
+  padding: var(--tooltip-padding);
+  border-radius: var(--tooltip-border-radius);
+  font-size: var(--tooltip-font-size);
+  white-space: nowrap;
+  display: none;
+}
+
+.slider-container:hover .tooltip {
+  display: block;
+}
+

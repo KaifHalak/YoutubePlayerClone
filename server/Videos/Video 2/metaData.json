@@ -1,0 +1,17 @@
+{
+     "video": {
+          "id": "2",
+          "title": "What if Earth suddenly stopped spinning?",
+          "duration": 274,
+          "likes": "63K",
+          "description": "Get a copy of What If? 2 and Randall's other books at: https://xkcd.com/books\n More serious answers to absurd questions at: https://what-if.xkcd.com/",
+          "dateOfUpload": "9 Jan 2024",
+          "views": "1,356,552",
+          "thumbnail": "http://localhost:3000/Video%202/thumbnail.png"
+     },
+     "profile": {
+          "name": "xkcd's What If?",
+          "subscribers": "578K",
+          "profilePic": "http://localhost:3000/Video%202/profilePic.jpg"
+     }
+}

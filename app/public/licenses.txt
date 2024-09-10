@@ -1,0 +1,14 @@
+Navbar
+microphone - https://www.svgrepo.com/svg/533111/microphone-alt-1
+user-icon - https://www.svgrepo.com/svg/532362/user?edit=true
+hamburger - https://www.svgrepo.com/svg/524617/hamburger-menu?edit=true
+youtube logo - https://www.svgrepo.com/svg/354594/youtube?edit=true
+
+
+Video Player
+play button - https://www.svgrepo.com/svg/333256/play-button
+skip forwardd - https://www.svgrepo.com/svg/365731/skip-forward-thin?edit=true
+volume - https://www.svgrepo.com/svg/532519/volume-max?edit=true
+settings - https://www.svgrepo.com/svg/506315/settings
+rectangle - https://www.svgrepo.com/svg/532280/rectangle-wide
+fullscreen - https://www.svgrepo.com/svg/505385/fullscreen

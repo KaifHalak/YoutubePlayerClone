@@ -1,0 +1,26 @@
+.full-screen-container{
+    display: block;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+}
+
+.full-screen-video{
+    object-fit: fill;
+    width: 100%;
+}
+
+.cinema-view{
+    position: relative;
+    height: 605px;
+    width: 100%;
+}
+
+.default-view{
+    position: relative;
+    height: 35rem;
+    width: 60.7rem;
+    margin-left: 32px;
+}

@@ -1,0 +1,7 @@
+<svg height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 36 36" width="100%">
+<!--Play button-->
+  <path class="ytp-svg-fill" d="M 14 10 L 26 18 L 14 26 Z" fill="#FFF">
+<!--Animation to morph play button to pause button-->
+    <animate id="play-btn-morph" attributeName="d" from="M 14 10 L 26 18 L 14 26 Z" to="M 12,26 16,26 16,10 12,10 z M 21,26 25,26 25,10 21,10 z" begin="click" dur="0.5s" fill="freeze"/>
+  </path>
+</svg>

@@ -1,0 +1,17 @@
+{
+    "video": {
+        "id": "1",
+        "title": "Our 90 degree roads baffled everyone in Cities: Skylines",
+        "duration": 920,
+        "likes": "11K",
+        "description": "Our city has reached a higher state of living, both literally through roads and in a collective consciousness of mutual concern and brotherly love throughout this endeavor. Traffic has never been lower since everyone is afraid to drive.",
+        "dateOfUpload": "22 Aug 2020",
+        "views": "424,013",
+        "thumbnail": "http://localhost:3000/Video%201/thumbnail.png"
+    },
+    "profile": {
+        "name": "ambiguousamphibian",
+        "subscribers": "1.4M",
+        "profilePic": "http://localhost:3000/Video%201/profilePic.jpg"
+    }
+}
